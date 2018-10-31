@@ -20,7 +20,7 @@
 .header{
   grid-area: hd;
   background: #000;
-  padding: 3px 0 3px 0;
+  padding: 0.6% 0 0.6% 0;
   color: white;
   text-align: center;
 }
@@ -30,23 +30,23 @@
   text-decoration: none;
 }
 
-.header img{
-  width: 25%;
-  height: auto;
-}
-
 #tagline{
+  margin: 0 auto;
   color: #ccc;
   font-family: 'Georgia', serif;
   font-size: 12px;
   font-style: italic;
 }
 
-.sides{
+.hd-left, .hd-right{
   flex-basis: 20%;
 }
 
-.sign-in{
+.hd-left{
+  justify-content: flex-start;
+}
+
+.hd-btn{
   border: 1px solid #444;
   background-color: #1f1f1f;
   border-radius: 5px;
@@ -55,10 +55,16 @@
   height: 36px;
 }
 
-.sign-in:hover{
+.hd-btn:hover{
   border: 1px solid #fff;
   background-color: #000;
   transition: 0.1s ease-in;
+}
+
+#search{
+  width: 36px;
+  height: 36px;
+  margin: 0 3% 0 4%;
 }
 
 .headline{
