@@ -1,0 +1,51 @@
+.site{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: auto 1500px 300px;
+  grid-template-areas:
+    'hd hd hd hd'
+    '. article article .'
+    'ft ft ft ft';
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*styling header*/
+.header{
+  grid-area: hd;
+  background: #000;
+  flex-direction: column;
+  padding: 1% 0 1% 0;
+}
+
+.header img{
+  width: 22%;
+  height: auto;
+}
+
+#tagline{
+  color: #eee;
+  font-style: italic;
+}
+
+
+
+.article{
+  grid-area: article;
+  background: #ee1039;
+}
+
+.footer{
+  grid-area: ft;
+  background: #a1a1a1;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 5em;
+}
