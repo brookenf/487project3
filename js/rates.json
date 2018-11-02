@@ -1,0 +1,359 @@
+[
+  {
+    "ST": "AL",
+    "StateFIPS": 1,
+    "Population": 6965299,
+    "Deaths": 555,
+    "value": 7.968071435
+  },
+  {
+    "ST": "AK",
+    "StateFIPS": 2,
+    "Population": 1118027,
+    "Deaths": 290,
+    "value": 25.93855068
+  },
+  {
+    "ST": "AZ",
+    "StateFIPS": 4,
+    "Population": 9576228,
+    "Deaths": 990,
+    "value": 10.33809972
+  },
+  {
+    "ST": "AR",
+    "StateFIPS": 5,
+    "Population": 4211656,
+    "Deaths": 450,
+    "value": 10.68463331
+  },
+  {
+    "ST": "CA",
+    "StateFIPS": 6,
+    "Population": 57037301,
+    "Deaths": 3123,
+    "value": 5.475364271
+  },
+  {
+    "ST": "CO",
+    "StateFIPS": 8,
+    "Population": 7279147,
+    "Deaths": 935,
+    "value": 12.84491164
+  },
+  {
+    "ST": "CT",
+    "StateFIPS": 9,
+    "Population": 5056059,
+    "Deaths": 283,
+    "value": 5.597244811
+  },
+  {
+    "ST": "DE",
+    "StateFIPS": 10,
+    "Population": 1284308,
+    "Deaths": 100,
+    "value": 7.786294253
+  },
+  {
+    "ST": "DC",
+    "StateFIPS": 11,
+    "Population": 876715,
+    "Deaths": 37,
+    "value": 4.220299641
+  },
+  {
+    "ST": "FL",
+    "StateFIPS": 12,
+    "Population": 25260339,
+    "Deaths": 1776,
+    "value": 7.030784504
+  },
+  {
+    "ST": "GA",
+    "StateFIPS": 13,
+    "Population": 14728430,
+    "Deaths": 994,
+    "value": 6.74885239
+  },
+  {
+    "ST": "HI",
+    "StateFIPS": 15,
+    "Population": 1859466,
+    "Deaths": 200,
+    "value": 10.75577612
+  },
+  {
+    "ST": "ID",
+    "StateFIPS": 16,
+    "Population": 2403159,
+    "Deaths": 323,
+    "value": 13.44064209
+  },
+  {
+    "ST": "IL",
+    "StateFIPS": 17,
+    "Population": 18648878,
+    "Deaths": 1155,
+    "value": 6.193402091
+  },
+  {
+    "ST": "IN",
+    "StateFIPS": 18,
+    "Population": 9687509,
+    "Deaths": 793,
+    "value": 8.185798847
+  },
+  {
+    "ST": "IA",
+    "StateFIPS": 19,
+    "Population": 4464733,
+    "Deaths": 427,
+    "value": 9.56384178
+  },
+  {
+    "ST": "KS",
+    "StateFIPS": 20,
+    "Population": 4291285,
+    "Deaths": 452,
+    "value": 10.53297555
+  },
+  {
+    "ST": "KY",
+    "StateFIPS": 21,
+    "Population": 6141235,
+    "Deaths": 540,
+    "value": 8.793019645
+  },
+  {
+    "ST": "LA",
+    "StateFIPS": 22,
+    "Population": 6771429,
+    "Deaths": 539,
+    "value": 7.959915108
+  },
+  {
+    "ST": "ME",
+    "StateFIPS": 23,
+    "Population": 1710165,
+    "Deaths": 169,
+    "value": 9.882087401
+  },
+  {
+    "ST": "MD",
+    "StateFIPS": 24,
+    "Population": 8233349,
+    "Deaths": 517,
+    "value": 6.279340278
+  },
+  {
+    "ST": "MA",
+    "StateFIPS": 25,
+    "Population": 9419434,
+    "Deaths": 485,
+    "value": 5.148929331
+  },
+  {
+    "ST": "MI",
+    "StateFIPS": 26,
+    "Population": 14576728,
+    "Deaths": 1246,
+    "value": 8.547871649
+  },
+  {
+    "ST": "MN",
+    "StateFIPS": 27,
+    "Population": 7556763,
+    "Deaths": 691,
+    "value": 9.144126923
+  },
+  {
+    "ST": "MS",
+    "StateFIPS": 28,
+    "Population": 4509119,
+    "Deaths": 329,
+    "value": 7.296325513
+  },
+  {
+    "ST": "MO",
+    "StateFIPS": 29,
+    "Population": 8617927,
+    "Deaths": 813,
+    "value": 9.433823238
+  },
+  {
+    "ST": "MT",
+    "StateFIPS": 30,
+    "Population": 1388394,
+    "Deaths": 238,
+    "value": 17.14210808
+  },
+  {
+    "ST": "NE",
+    "StateFIPS": 31,
+    "Population": 2703515,
+    "Deaths": 225,
+    "value": 8.322498673
+  },
+  {
+    "ST": "NV",
+    "StateFIPS": 32,
+    "Population": 3813510,
+    "Deaths": 353,
+    "value": 9.256564163
+  },
+  {
+    "ST": "NH",
+    "StateFIPS": 33,
+    "Population": 1836758,
+    "Deaths": 160,
+    "value": 8.711000578
+  },
+  {
+    "ST": "NJ",
+    "StateFIPS": 34,
+    "Population": 12075896,
+    "Deaths": 586,
+    "value": 4.85264199
+  },
+  {
+    "ST": "NM",
+    "StateFIPS": 35,
+    "Population": 3038010,
+    "Deaths": 477,
+    "value": 15.70106748
+  },
+  {
+    "ST": "NY",
+    "StateFIPS": 36,
+    "Population": 27687926,
+    "Deaths": 1374,
+    "value": 4.962451864
+  },
+  {
+    "ST": "NC",
+    "StateFIPS": 37,
+    "Population": 13807799,
+    "Deaths": 1041,
+    "value": 7.53921751
+  },
+  {
+    "ST": "ND",
+    "StateFIPS": 38,
+    "Population": 1068061,
+    "Deaths": 175,
+    "value": 16.38483195
+  },
+  {
+    "ST": "OH",
+    "StateFIPS": 39,
+    "Population": 16464754,
+    "Deaths": 1337,
+    "value": 8.120376411
+  },
+  {
+    "ST": "OK",
+    "StateFIPS": 40,
+    "Population": 5565905,
+    "Deaths": 639,
+    "value": 11.48061277
+  },
+  {
+    "ST": "OR",
+    "StateFIPS": 41,
+    "Population": 5264298,
+    "Deaths": 516,
+    "value": 9.801876717
+  },
+  {
+    "ST": "PA",
+    "StateFIPS": 42,
+    "Population": 17782227,
+    "Deaths": 1419,
+    "value": 7.979877886
+  },
+  {
+    "ST": "RI",
+    "StateFIPS": 44,
+    "Population": 1564693,
+    "Deaths": 79,
+    "value": 5.048913749
+  },
+  {
+    "ST": "SC",
+    "StateFIPS": 45,
+    "Population": 6728159,
+    "Deaths": 579,
+    "value": 8.605623024
+  },
+  {
+    "ST": "SD",
+    "StateFIPS": 46,
+    "Population": 1200529,
+    "Deaths": 238,
+    "value": 19.82459399
+  },
+  {
+    "ST": "TN",
+    "StateFIPS": 47,
+    "Population": 9030552,
+    "Deaths": 753,
+    "value": 8.338360712
+  },
+  {
+    "ST": "TX",
+    "StateFIPS": 48,
+    "Population": 39706629,
+    "Deaths": 3026,
+    "value": 7.62089373
+  },
+  {
+    "ST": "UT",
+    "StateFIPS": 49,
+    "Population": 4832538,
+    "Deaths": 595,
+    "value": 12.31237085
+  },
+  {
+    "ST": "VT",
+    "StateFIPS": 50,
+    "Population": 891731,
+    "Deaths": 95,
+    "value": 10.65343697
+  },
+  {
+    "ST": "VA",
+    "StateFIPS": 51,
+    "Population": 11519487,
+    "Deaths": 900,
+    "value": 7.812847916
+  },
+  {
+    "ST": "WA",
+    "StateFIPS": 53,
+    "Population": 9568982,
+    "Deaths": 894,
+    "value": 9.34268661
+  },
+  {
+    "ST": "WV",
+    "StateFIPS": 54,
+    "Population": 2421000,
+    "Deaths": 235,
+    "value": 9.706732755
+  },
+  {
+    "ST": "WI",
+    "StateFIPS": 55,
+    "Population": 8142925,
+    "Deaths": 763,
+    "value": 9.370097354
+  },
+  {
+    "ST": "WY",
+    "StateFIPS": 56,
+    "Population": 811215,
+    "Deaths": 151,
+    "value": 18.61405423
+  }
+]
