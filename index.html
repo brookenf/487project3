@@ -6,6 +6,9 @@
   <!--TauCharts-->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
 
+  <!--DataTable-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+
   <!--metatags-->
   <meta charset="UTF-8">
   <meta name="description" content="A look at the rates of suicide in the US over the past thirty years">
@@ -19,6 +22,10 @@
 
   <!--Font Awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/>
+
 </head>
 <body class="site">
   <div class="header flex">
@@ -64,6 +71,19 @@
       Maecenas vulputate elit id turpis ornare cursus. Nam quis dolor sed tellus venenatis imperdiet. Praesent vehicula, metus a imperdiet lobortis, quam magna iaculis quam, quis commodo urna ipsum quis ante. Phasellus sit amet lacus tincidunt, consectetur lorem at, luctus erat. Etiam et posuere lacus. Maecenas ut posuere mauris. Aenean varius neque non velit pretium rutrum. Pellentesque a augue dolor. Donec eget tortor quis eros sollicitudin ultrices. Nunc aliquet sollicitudin blandit. Sed ut nisl sed elit blandit eleifend. Nam dictum neque at lobortis condimentum. Sed dui velit, iaculis non nibh id, ultrices vulputate odio. Cras tristique iaculis purus, et imperdiet dolor tempus eget. Nulla dictum, ante vitae hendrerit vulputate, arcu odio blandit arcu, feugiat faucibus lacus massa a dolor.
     </p>
     <div id="chart1" class="charts"></div>
+    <div class="source">
+      Source: NCHS National Vital Statistics System for numbers of deaths; US Census Bureau for population estimates
+    </div>
+    <table id="ajax-table" class="display" style="width:100%">
+    <!---content will go here about top 10--->
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Cause of Death</th>
+          <th>No. of Deaths</th>
+        </tr>
+      </thead>
+    </table>
     <p class="body-copy">
       Donec maximus nulla non erat scelerisque, et suscipit mauris bibendum. Morbi et erat malesuada nulla feugiat suscipit. Vestibulum rhoncus condimentum odio in eleifend. In in lorem imperdiet, laoreet velit ut, facilisis lectus. Nam dapibus diam eu hendrerit convallis. Curabitur eu ex consectetur, egestas lacus eu, pretium arcu. Etiam iaculis, massa in pulvinar interdum, arcu est rutrum odio, quis tincidunt elit nisl at erat. Suspendisse fermentum quam quis mi sollicitudin ornare. Duis leo metus, viverra sit amet sapien in, molestie mattis orci. Nunc consequat ultrices sapien, non eleifend enim blandit eget. Vivamus sit amet porttitor libero.
     </p>
@@ -90,8 +110,8 @@
   <script src="https://cdn.jsdelivr.net/npm/d3@4.13.0/build/d3.min.js" charset="utf-8"></script>
   <!--Tau Charts-->
   <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js" type="text/javascript"></script>
-  <!--Chart JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" type="text/javascript"></script>
+  <!--DataTable-->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
   <!--High Charts-->
   <script src="https://code.highcharts.com/maps/highmaps.js"></script>
   <script src="https://code.highcharts.com/maps/modules/data.js"></script>

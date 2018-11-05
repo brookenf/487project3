@@ -1,0 +1,52 @@
+[
+  {
+    "Rank": 1,
+    "cause": "Unintentional Injury",
+    "Deaths": 269947
+  },
+  {
+    "Rank": 2,
+    "cause": "Homicide",
+    "Deaths": 93476
+  },
+  {
+    "Rank": 3,
+    "cause": "Suicide",
+    "Deaths": 86118
+  },
+  {
+    "Rank": 4,
+    "cause": "Malignant Neoplasms",
+    "Deaths": 37814
+  },
+  {
+    "Rank": 5,
+    "cause": "Heart Disease",
+    "Deaths": 20964
+  },
+  {
+    "Rank": 6,
+    "cause": "Congenital Anomalies",
+    "Deaths": 11060
+  },
+  {
+    "Rank": 7,
+    "cause": "Influenza & Pneumonia",
+    "Deaths": 4511
+  },
+  {
+    "Rank": 8,
+    "cause": "Chronic Low. Respiratory Disease",
+    "Deaths": 4451
+  },
+  {
+    "Rank": 9,
+    "cause": "Cerebrovascular",
+    "Deaths": 4199
+  },
+  {
+    "Rank": 10,
+    "cause": "Diabetes Mellitus",
+    "Deaths": 3583
+  }
+]

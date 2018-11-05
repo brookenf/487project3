@@ -1,15 +1,9 @@
 $(function(){
   console.log('DOM is loaded');
 
-  //building the high chart
+  //building the high chart map
   $.getJSON('js/rates.json', function (data) {
     console.log(data);
-    // Make codes uppercase to match the map data
-    $.each(data, function (i, item) {
-        //this.code = this.code.toUpperCase();
-    });
-
-
 
     // Instantiate the map
     Highcharts.mapChart('chart1', {
@@ -20,7 +14,7 @@ $(function(){
         },
 
         title: {
-            text: 'US Rates of Suicide (per 100,000)'
+            text: '2008-2014 US Rates of Suicide (per 100,000) of Young Adults (10-24)'
         },
 
         legend: {
@@ -59,13 +53,29 @@ $(function(){
                 color: '#FFFFFF',
                 format: '{point.ST}'
             },
-            name: 'Number of Suicide Deaths',
+            name: 'Number of Suicide Deaths per 100,000',
             tooltip: {
-                pointFormat: '{point.ST}: {point.Deaths}'
+                pointFormat: '{point.ST}: {point.Deaths} total deaths'
             }
         }]
     });
 });//closing of the .getJSON
+
+//building the DataTable
+$('#ajax-table').DataTable({
+  "ajax": "./js/causes.txt",
+  "columns":[
+    {"data":"Rank"},
+    {"data":"cause"},
+    {"data":"Deaths"}
+  ],
+  "columnDefs":[{
+    "targets":[0, 2],
+    "createdCell":function(td, cellData, rowData, row, col){
+
+    }//close createdCell
+  }]//close columnDefs
+});//close DataTable
 
 
 
