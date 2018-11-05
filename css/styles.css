@@ -111,15 +111,29 @@
 }
 
 /*chart stylings*/
-#chart1{
+#chart1, #chart2{
   height: 500px;
-  min-width: 310px;
-  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .highcharts-background{
   stroke: #fff;
+}
+
+.source{
+  font-family: 'Libre Franklin', sans-serif;
+  margin-bottom: 5%;
+}
+
+/*table stylings*/
+#ajax-table_wrapper{
+  margin: 5% 0 5% 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#ajax-table_length, #ajax-table_paginate{
+  display: none;
 }
 
 /*footer stylings*/

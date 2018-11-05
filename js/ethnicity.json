@@ -1,0 +1,50 @@
+[
+  {
+    "sex": "Male",
+    "ethn": "White",
+    "crudeNumber": "24,803",
+    "crudeRate": 14.1
+  },
+  {
+    "sex": "Female",
+    "ethn": "White",
+    "crudeNumber": "6,211",
+    "crudeRate": 3.7
+  },
+  {
+    "sex": "Male",
+    "ethn": "Black",
+    "crudeNumber": "3,366",
+    "crudeRate": 8.9
+  },
+  {
+    "sex": "Female",
+    "ethn": "Black",
+    "crudeNumber": 822,
+    "crudeRate": 2.2
+  },
+  {
+    "sex": "Male",
+    "ethn": "American Indian, Eskimo, Aleut",
+    "crudeNumber": 839,
+    "crudeRate": 20.5
+  },
+  {
+    "sex": "Female",
+    "ethn": "American Indian, Eskimo, Aleut",
+    "crudeNumber": 301,
+    "crudeRate": 7.7
+  },
+  {
+    "sex": "Male",
+    "ethn": "Asian, Pacific Islander",
+    "crudeNumber": "1,211",
+    "crudeRate": 8.9
+  },
+  {
+    "sex": "Female",
+    "ethn": "Asian, Pacific Islander",
+    "crudeNumber": 434,
+    "crudeRate": 3.3
+  }
+]
