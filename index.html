@@ -31,6 +31,8 @@
 
 </head>
 <body class="site">
+
+  <!--header-->
   <div class="header flex">
     <div class="hd-left flex">
       <div class="hd-btn hidden flex" id="search">
@@ -58,23 +60,50 @@
       </div>
     </div>
   </div>
+
+  <!--sticky sidebar
+    I know these are supposed to be share buttons, but instead they're links to my social media accounts because I can't build my own share functions
+  -->
+  <div class="sidenav flex">
+    <a href="https://washingtonpost.com" target="_blank"><i class="fas fa-home"></i></a>
+    <a href="http://fb.me/brookenf" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    <a href="http://twitter.com/brookenf1" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://plus.google.com/106138843401726185914" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+    <a href="mailto:brookenf@live.unc.edu?subject=Feedback on Data Viz"><i class="fas fa-envelope"></i></a>
+    <a href="http://linkedin.com/in/brooke-n-fisher" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.pinterest.com/brookefisher750/" target="_blank"><i class="fab fa-pinterest"></i></a>
+    <a href="http://brookes-nook-us.tumblr.com" target="_blank"><i class="fab fa-tumblr"></i></a>
+    <div id="grey" class="flex black">
+      <i id="increase"class="fa fa-font"></i>
+      <i class="fas fa-print"></i>
+      <a href="#comment-btn" class="black">
+        <div id="count" class="flex">
+          <i class="fas fa-comments"></i>
+          300
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!--headline-->
   <div class="headline flex">
     <div class="pg-h1">
       Suicides rates highest in over 30 years
     </div>
     <div class="byline">
       By <a class="author" href="http://brookesnook.us">Brooke Fisher</a>
-    </div>
-  </div>
+    </div></div>
+
+  <!--beginning of the article body-->
   <div class="article">
     <p class="body-copy">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis massa nec ligula tristique commodo vel vel erat. Donec eleifend lobortis lorem, a auctor massa dapibus vel. Morbi porttitor tristique neque. Nulla scelerisque vulputate cursus. Ut vestibulum erat in felis hendrerit euismod. Aliquam aliquam nisl id nisl lacinia, nec facilisis mi vehicula. Donec congue eros quis nunc gravida, eget imperdiet nunc convallis. Mauris ligula lacus, facilisis sodales ex et, consectetur fermentum quam. Aliquam et sem eget enim imperdiet egestas sed non felis. Pellentesque viverra tempus quam, eget iaculis dolor varius vitae. Maecenas fringilla cursus leo, id eleifend mauris auctor a. Quisque luctus arcu ut erat placerat, nec aliquet velit varius. Aenean tempor enim urna, non scelerisque elit tincidunt ac.
     </p>
     <div id="chart1" class="charts"></div>
     <div class="source">
-      Source: NCHS National Vital Statistics System for numbers of deaths; US Census Bureau for population estimates
-    </div>
+      Source: NCHS National Vital Statistics System for numbers of deaths; US Census Bureau for population estimates</div>
     <h2>Suicide is the 3rd leading cause of death for people ages 10-24</h2>
+    <!--table-->
     <table id="ajax-table" class="display" style="width:100%">
     <!---content will go here about top 10--->
       <thead>
@@ -84,29 +113,24 @@
           <th>Cause of Death</th>
           <th>Number of Deaths</th>
         </tr>
-      </thead>
-    </table>
+      </thead></table>
     <p class="body-copy">
-      Donec maximus nulla non erat scelerisque, et suscipit mauris bibendum. Morbi et erat malesuada nulla feugiat suscipit. Vestibulum rhoncus condimentum odio in eleifend. In in lorem imperdiet, laoreet velit ut, facilisis lectus. Nam dapibus diam eu hendrerit convallis. Curabitur eu ex consectetur, egestas lacus eu, pretium arcu. Etiam iaculis, massa in pulvinar interdum, arcu est rutrum odio, quis tincidunt elit nisl at erat. Suspendisse fermentum quam quis mi sollicitudin ornare. Duis leo metus, viverra sit amet sapien in, molestie mattis orci. Nunc consequat ultrices sapien, non eleifend enim blandit eget. Vivamus sit amet porttitor libero.
-    </p>
+      Donec maximus nulla non erat scelerisque, et suscipit mauris bibendum. Morbi et erat malesuada nulla feugiat suscipit. Vestibulum rhoncus condimentum odio in eleifend. In in lorem imperdiet, laoreet velit ut, facilisis lectus. Nam dapibus diam eu hendrerit convallis. Curabitur eu ex consectetur, egestas lacus eu, pretium arcu. Etiam iaculis, massa in pulvinar interdum, arcu est rutrum odio, quis tincidunt elit nisl at erat. Suspendisse fermentum quam quis mi sollicitudin ornare. Duis leo metus, viverra sit amet sapien in, molestie mattis orci. Nunc consequat ultrices sapien, non eleifend enim blandit eget. Vivamus sit amet porttitor libero.</p>
     <h2>American Indians, Males most likely to commit suicide</h2>
     <div id="chart2" class="charts flex">Rate of Suicide By Race</div>
     <div class="source">
-      Source: Web-based Injury Statistics Query and Reporting System (WISQARS), CDC
-    </div>
+      Source: Web-based Injury Statistics Query and Reporting System (WISQARS), CDC</div>
     <p class="body-copy">
-      Suspendisse consequat nisi et diam sodales sollicitudin. Sed odio enim, porta nec erat sed, bibendum pellentesque diam. Quisque consectetur enim sed dapibus bibendum. Cras lacinia, metus quis bibendum aliquam, ipsum ante fermentum arcu, et sollicitudin urna urna congue tortor. Sed facilisis semper dignissim. Morbi accumsan congue facilisis. Aliquam quam ipsum, accumsan et sem non, faucibus aliquet odio.
-    </p>
+      Suspendisse consequat nisi et diam sodales sollicitudin. Sed odio enim, porta nec erat sed, bibendum pellentesque diam. Quisque consectetur enim sed dapibus bibendum. Cras lacinia, metus quis bibendum aliquam, ipsum ante fermentum arcu, et sollicitudin urna urna congue tortor. Sed facilisis semper dignissim. Morbi accumsan congue facilisis. Aliquam quam ipsum, accumsan et sem non, faucibus aliquet odio.</p>
     <div class="bottom-line">
-      <div class="comments flex">
+      <div id="comment-btn" class="comments flex">
         <div class="flex">
           <i class="fas fa-comments"></i>
           <p>
             300 comments
           </p>
         </div>
-      </div>
-    </div><!--end of comments-->
+      </div></div><!--end of comments-->
     <div class="bio flex">
       <div class="flex">
         <img src="img/brooke.jpg" alt="A picture of the author, Brooke Fisher" />
@@ -115,16 +139,12 @@
             <a class="author" href="http://brookesnook.us">Brooke Fisher</a>
           </p>
           <p>
-            Brooke Fisher is a Senior at the University of North Carolina at Chapel Hill studying interactive multimedia and global. Upon graduation, she wants to work in UX design or digital storytelling. <a href="http://twitter.com/brookenf1" class="twitter">Follow</a> <i class="fab fa-twitter"></i>
+            Brooke Fisher is a Senior at the University of North Carolina at Chapel Hill studying interactive multimedia and global. Upon graduation, she wants to work in UX design or digital storytelling. <a href="http://twitter.com/brookenf1" class="twitter black">Follow</a> <i class="fab fa-twitter black"></i>
           </p>
         </div>
       </div>
-    </div>
-  </div><!--end of article-->
+    </div></div><!--end of article-->
   <div class="footer"></div>
-
-
-
 
   <!--scripts go here-->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
@@ -140,6 +160,8 @@
   <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
   <!--TauCharts-->
   <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js" type="text/javascript"></script>
+  <!--fontsize.js-->
+  <script src="js/fontsize.js"></script>
   <!--My JS-->
   <script src="js/scripts.js"></script>
 </body>

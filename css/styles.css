@@ -1,3 +1,6 @@
+body{
+  font-size: 14px;
+}
 .site{
   margin: 0 auto;
   display: grid;
@@ -5,8 +8,8 @@
   grid-template-rows: auto auto auto 300px;
   grid-template-areas:
     'hd hd hd hd hd hd'
-    '. hdline hdline hdline hdline .'
-    '. . article article . .'
+    'side hdline hdline hdline hdline .'
+    'side . article article . .'
     'ft ft ft ft ft ft';
 }
 
@@ -16,7 +19,7 @@
   align-items: center;
 }
 
-h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio{
+h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey{
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -74,6 +77,83 @@ h3{
 
 #sections{
   margin-left: 3%;
+}
+
+/*styling sidenav*/
+.sidenav {
+  grid-area: side;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  min-width: 1.1em;
+  position: fixed;
+  z-index: 9;
+  top: 87.9;
+  left: -1;
+  background: #fff;
+  overflow-x: hidden;
+  padding: 5px 0 0 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 1px solid #d5d5d5;
+}
+
+.sidenav i{
+  padding: 12px 16px;
+}
+
+.fa-home{
+  color: #5a5a5a;
+}
+
+.fa-facebook-square{
+  color: #3b5998;
+}
+
+.fa-twitter{
+  color: #00aced;
+}
+
+.fa-google-plus-g{
+  color: #dd4b39;
+}
+
+.fa-envelope{
+  color: #bd2a32;
+}
+
+.fa-linkedin-in{
+  color: #007bb6;
+}
+
+.fa-pinterest{
+  color: #cb2027;
+}
+
+.fa-tumblr{
+  color: #32506d;
+}
+
+#grey, #count{
+  flex-direction: column;
+}
+
+#grey{
+  width: 100%;
+  background: #f0f0f0;
+  border-top: 1px solid #d5d5d5;
+  padding: 5px 0 5px 0;
+  height: 100%;
+}
+
+#grey a{
+  text-decoration: none;
+}
+
+#count{
+  font-size: 0.9em;
+  font-weight: 700;
+  padding-bottom: 3px;
 }
 
 /*article body stylings*/
@@ -192,17 +272,13 @@ h3{
   color: #666;
 }
 
-.fa-twitter{
-  color: #000;
-}
-
 .twitter{
   text-decoration: none;
-  color: #000;
 }
 
-
-
+.black{
+  color: #000;
+}
 
 /*footer stylings*/
 .footer{
