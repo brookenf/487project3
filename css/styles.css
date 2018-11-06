@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan{
+h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio{
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -105,6 +105,7 @@ h3{
 
 .article{
   grid-area: article;
+  color: #111;
 }
 
 .body-copy{
@@ -146,10 +147,66 @@ h3{
   display: none;
 }
 
+.comments{
+  border-radius: 4px;
+  font-weight: 900;
+  color: #333;
+  width: 100%;
+  border: 1px solid #dedede;
+  margin-bottom: 5%;
+}
+
+.bottom-line, .bio{
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.bottom-line{
+  border-bottom: 2px solid #d5d5d5 !important;
+}
+
+.bio{
+  border-bottom: 2px solid #333 !important;
+  padding-bottom: 5%;
+}
+
+.bio img{
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px
+}
+
+#bio-info{
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#bio-info a{
+  font-weight: 900;
+  margin: 0.1% 0 0.1% 0;
+}
+
+#bio-info p{
+  margin: 0.1% 0 0.3% 0;
+  color: #666;
+}
+
+.fa-twitter{
+  color: #000;
+}
+
+.twitter{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
 /*footer stylings*/
 .footer{
   grid-area: ft;
-  background: #a1a1a1;
 }
 
 /*media queries */
