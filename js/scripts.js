@@ -54,7 +54,7 @@ $(function(){
                 color: '#FFFFFF',
                 format: '{point.ST}'
             },
-            name: 'Number of Suicide Deaths per 100,000',
+            name: 'Rate of Suicide Deaths per 100,000',
             tooltip: {
                 pointFormat: '{point.ST}: {point.Deaths} total deaths'
             }
@@ -90,8 +90,12 @@ $(function(){
       console.log(ethnicities);
       var chart = new Taucharts.Chart({
         guide: {
-          x: {label:'Ethnicity'},  // custom label for X axis
-          y: {label:'Death Rate Per 100,000'},    // custom label for Y axis
+          x: {
+            label:{text: 'Race'}
+          },  // custom label for X axis
+          y: {
+            label:{text: 'Death Rate Per 100,000'}
+          },    // custom label for Y axis
           padding: {b:40,l:40,t:10,r:10}   // chart paddings
         },
         data: ethnicities,
