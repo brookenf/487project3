@@ -1,0 +1,478 @@
+[
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2000",
+    "Deaths": 300,
+    "Population": 20618738,
+    "CrudeRate": 1.45
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2000",
+    "Deaths": 1621,
+    "Population": 20259270,
+    "CrudeRate": 8
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2000",
+    "Deaths": 2373,
+    "Population": 19123840,
+    "CrudeRate": 12.41
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2000",
+    "Deaths": 4294,
+    "Population": 60001848,
+    "CrudeRate": 7.16
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2001",
+    "Deaths": 272,
+    "Population": 20978678,
+    "CrudeRate": 1.3
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2001",
+    "Deaths": 1611,
+    "Population": 20456284,
+    "CrudeRate": 7.88
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2001",
+    "Deaths": 2360,
+    "Population": 19757286,
+    "CrudeRate": 11.94
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2001",
+    "Deaths": 4243,
+    "Population": 61192248,
+    "CrudeRate": 6.93
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2002",
+    "Deaths": 260,
+    "Population": 21261421,
+    "CrudeRate": 1.22
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2002",
+    "Deaths": 1513,
+    "Population": 20610370,
+    "CrudeRate": 7.34
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2002",
+    "Deaths": 2497,
+    "Population": 20243765,
+    "CrudeRate": 12.33
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2002",
+    "Deaths": 4270,
+    "Population": 62115556,
+    "CrudeRate": 6.87
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2003",
+    "Deaths": 244,
+    "Population": 21415353,
+    "CrudeRate": 1.14
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2003",
+    "Deaths": 1487,
+    "Population": 20797166,
+    "CrudeRate": 7.15
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2003",
+    "Deaths": 2501,
+    "Population": 20591688,
+    "CrudeRate": 12.15
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2003",
+    "Deaths": 4232,
+    "Population": 62804207,
+    "CrudeRate": 6.74
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2004",
+    "Deaths": 283,
+    "Population": 21411680,
+    "CrudeRate": 1.32
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2004",
+    "Deaths": 1700,
+    "Population": 21102552,
+    "CrudeRate": 8.06
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2004",
+    "Deaths": 2616,
+    "Population": 20845560,
+    "CrudeRate": 12.55
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2004",
+    "Deaths": 4599,
+    "Population": 63359792,
+    "CrudeRate": 7.26
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2005",
+    "Deaths": 270,
+    "Population": 21212579,
+    "CrudeRate": 1.27
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2005",
+    "Deaths": 1613,
+    "Population": 21486214,
+    "CrudeRate": 7.51
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2005",
+    "Deaths": 2599,
+    "Population": 20959955,
+    "CrudeRate": 12.4
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2005",
+    "Deaths": 4482,
+    "Population": 63658748,
+    "CrudeRate": 7.04
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2006",
+    "Deaths": 216,
+    "Population": 21033138,
+    "CrudeRate": 1.03
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2006",
+    "Deaths": 1555,
+    "Population": 21807709,
+    "CrudeRate": 7.13
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2006",
+    "Deaths": 2634,
+    "Population": 21036135,
+    "CrudeRate": 12.52
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2006",
+    "Deaths": 4405,
+    "Population": 63876982,
+    "CrudeRate": 6.9
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2007",
+    "Deaths": 180,
+    "Population": 20841042,
+    "CrudeRate": 0.86
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2007",
+    "Deaths": 1481,
+    "Population": 22067816,
+    "CrudeRate": 6.71
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2007",
+    "Deaths": 2659,
+    "Population": 21077999,
+    "CrudeRate": 12.62
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2007",
+    "Deaths": 4320,
+    "Population": 63986857,
+    "CrudeRate": 6.75
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2008",
+    "Deaths": 215,
+    "Population": 20706655,
+    "CrudeRate": 1.04
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2008",
+    "Deaths": 1604,
+    "Population": 22210880,
+    "CrudeRate": 7.22
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2008",
+    "Deaths": 2694,
+    "Population": 21180612,
+    "CrudeRate": 12.72
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2008",
+    "Deaths": 4513,
+    "Population": 64098147,
+    "CrudeRate": 7.04
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2009",
+    "Deaths": 259,
+    "Population": 20660564,
+    "CrudeRate": 1.25
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2009",
+    "Deaths": 1669,
+    "Population": 22192810,
+    "CrudeRate": 7.52
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2009",
+    "Deaths": 2702,
+    "Population": 21384122,
+    "CrudeRate": 12.64
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2009",
+    "Deaths": 4630,
+    "Population": 64237496,
+    "CrudeRate": 7.21
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2010",
+    "Deaths": 267,
+    "Population": 20677196,
+    "CrudeRate": 1.29
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2010",
+    "Deaths": 1659,
+    "Population": 22040367,
+    "CrudeRate": 7.53
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2010",
+    "Deaths": 2941,
+    "Population": 21586212,
+    "CrudeRate": 13.62
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2010",
+    "Deaths": 4867,
+    "Population": 64303775,
+    "CrudeRate": 7.57
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2011",
+    "Deaths": 282,
+    "Population": 20714582,
+    "CrudeRate": 1.36
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2011",
+    "Deaths": 1802,
+    "Population": 21663391,
+    "CrudeRate": 8.32
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2011",
+    "Deaths": 3020,
+    "Population": 22169153,
+    "CrudeRate": 13.62
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2011",
+    "Deaths": 5104,
+    "Population": 64547126,
+    "CrudeRate": 7.91
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2012",
+    "Deaths": 306,
+    "Population": 20670899,
+    "CrudeRate": 1.48
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2012",
+    "Deaths": 1782,
+    "Population": 21373766,
+    "CrudeRate": 8.34
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2012",
+    "Deaths": 3090,
+    "Population": 22599347,
+    "CrudeRate": 13.67
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2012",
+    "Deaths": 5178,
+    "Population": 64644012,
+    "CrudeRate": 8.01
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2013",
+    "Deaths": 386,
+    "Population": 20651132,
+    "CrudeRate": 1.87
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2013",
+    "Deaths": 1748,
+    "Population": 21180036,
+    "CrudeRate": 8.25
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2013",
+    "Deaths": 3130,
+    "Population": 22825784,
+    "CrudeRate": 13.71
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2013",
+    "Deaths": 5264,
+    "Population": 64656952,
+    "CrudeRate": 8.14
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2014",
+    "Deaths": 425,
+    "Population": 20666961,
+    "CrudeRate": 2.06
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2014",
+    "Deaths": 1837,
+    "Population": 21056378,
+    "CrudeRate": 8.72
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2014",
+    "Deaths": 3253,
+    "Population": 22892318,
+    "CrudeRate": 14.21
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2014",
+    "Deaths": 5515,
+    "Population": 64615657,
+    "CrudeRate": 8.54
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2015",
+    "Deaths": 409,
+    "Population": 20605579,
+    "CrudeRate": 1.98
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2015",
+    "Deaths": 2061,
+    "Population": 21084710,
+    "CrudeRate": 9.77
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2015",
+    "Deaths": 3430,
+    "Population": 22693026,
+    "CrudeRate": 15.11
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2015",
+    "Deaths": 5900,
+    "Population": 64383315,
+    "CrudeRate": 9.16
+  },
+  {
+    "AgeGroup": "10-14 yrs",
+    "Year": "2016",
+    "Deaths": 436,
+    "Population": 20618233,
+    "CrudeRate": 2.11
+  },
+  {
+    "AgeGroup": "15-19 yrs",
+    "Year": "2016",
+    "Deaths": 2117,
+    "Population": 21129999,
+    "CrudeRate": 10.02
+  },
+  {
+    "AgeGroup": "20-24 yrs",
+    "Year": "2016",
+    "Deaths": 3606,
+    "Population": 22381028,
+    "CrudeRate": 16.11
+  },
+  {
+    "AgeGroup": "Ages 10 to 24",
+    "Year": "2016",
+    "Deaths": 6159,
+    "Population": 64129260,
+    "CrudeRate": 9.6
+  }
+]

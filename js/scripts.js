@@ -16,6 +16,70 @@ $(function(){
     document.body.style.fontSize = fontSize + 'px'; // set the body font size to the new value
   });
 
+  //building the line chart
+  var yearly = [];
+  var urlLine = './js/yearly.json'
+  $.ajax({
+    type: 'GET',
+    dataType: 'json',
+    data: yearly,
+    url: urlLine,
+    async: true,
+    success: function(yearly){
+      console.log(yearly);
+      var lineChart = new Taucharts.Chart({
+        data: yearly,
+        type: 'line',
+        x: 'Year',
+        y: 'CrudeRate',
+        color: 'AgeGroup',
+        guide: {
+        	showAnchors: 'always',
+          x: {
+            label:{text: 'Year'}
+          },  // custom label for X axis
+          y: {
+            label:{text: 'Death Rate Per 100,000'}
+          },    // custom label for Y axis
+          padding: {b:40,l:40,t:10,r:10}   // chart paddings
+        },
+        plugins: [
+            Taucharts.api.plugins.get('legend')(),
+            Taucharts.api.plugins.get('tooltip')({
+              fields: ['AgeGroup', 'Year', 'Deaths', 'CrudeRate'],
+              formatters: {
+                  AgeGroup: {
+                    label: "Age Group",
+                    format: function(b) {
+                      return (b);
+                    }
+                  },
+                  Year: {
+                    label: "Year",
+                    format: function (a) {
+                        return (a);
+                    }
+                  },
+                  Deaths: {
+                      label: "Total Number",
+                      format: function (a) {
+                          return (a + ' deaths');
+                      }
+                  },
+                  CrudeRate: {
+                    label: "Rate",
+                    format: function (a){
+                      return (a + ' per 100,000');
+                  }
+                }
+              }//closing of formatters
+            })
+        ]
+      }).renderTo('#line-chart');
+    }//closing of success
+  }); //closing of line chart
+
+
   //building the high chart map
   $.getJSON('js/rates.json', function (data) {
     console.log(data);
@@ -123,7 +187,7 @@ $(function(){
             fields: ['sex', 'crudeNumber', 'crudeRate'],
             formatters: {
                 sex: {
-                  label: "Gender",
+                  label: "Sex",
                   format: function (a) {
                       return (a);
                   }
