@@ -19,8 +19,8 @@ body{
   align-items: center;
 }
 
-h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey{
-  font-family: 'Libre Franklin', sans-serif;
+h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart{
+  font-family: 'Libre Franklin', sans-serif !important;
 }
 
 h3{
@@ -209,9 +209,33 @@ h3{
   height: 560px;
   width: 100%;
   margin: 0 auto;
-  font-family: 'Libre Franklin', sans-serif !important;
 }
 
+/*line chart styling*/
+#line-chart > svg{
+ display:block;
+}
+
+.tau-chart__legend{
+  display: flex;
+  align-items: center;
+  padding: 3% 0 3% 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.tau-chart__legend__title{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tau-chart__legend__wrap{
+  display: flex !important;
+  align-items: center !important;
+  align-content: center !important;
+}
+
+/*map styling*/
 .highcharts-background{
   stroke: #fff;
 }
@@ -262,6 +286,8 @@ h3{
 #bio-info{
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 83%;
 }
 
 #bio-info a{

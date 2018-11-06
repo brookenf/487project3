@@ -33,18 +33,29 @@ $(function(){
         x: 'Year',
         y: 'CrudeRate',
         color: 'AgeGroup',
+        settings: {
+            asyncRendering: false,
+            renderingTimeout: 10000,
+            syncRenderingInterval: 50,
+            handleRenderingErrors: true
+        },
         guide: {
         	showAnchors: 'always',
           x: {
             label:{text: 'Year'}
           },  // custom label for X axis
           y: {
-            label:{text: 'Death Rate Per 100,000'}
+            label:{text: 'Death Rate Per 100,000'},
+            min: 0,
+            max: 17,
+            nice: false
           },    // custom label for Y axis
           padding: {b:40,l:40,t:10,r:10}   // chart paddings
         },
         plugins: [
-            Taucharts.api.plugins.get('legend')(),
+            Taucharts.api.plugins.get('legend')({
+              position: 'bottom'
+            }),
             Taucharts.api.plugins.get('tooltip')({
               fields: ['AgeGroup', 'Year', 'Deaths', 'CrudeRate'],
               formatters: {
@@ -168,12 +179,21 @@ $(function(){
       //TAU charts
       console.log(ethnicities);
       var chart = new Taucharts.Chart({
+        settings: {
+            asyncRendering: false,
+            renderingTimeout: 10000,
+            syncRenderingInterval: 50,
+            handleRenderingErrors: true
+        },
         guide: {
           x: {
             label:{text: 'Race'}
           },  // custom label for X axis
           y: {
-            label:{text: 'Death Rate Per 100,000'}
+            label:{text: 'Death Rate Per 100,000'},
+            min: 0,
+            max: 21,
+            nice: false
           },    // custom label for Y axis
           padding: {b:40,l:40,t:10,r:10}   // chart paddings
         },
