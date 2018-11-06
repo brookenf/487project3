@@ -1,6 +1,6 @@
 @supports (grid-area:auto){
   body{
-    font-size: 14.5px;
+    font-size: 15px;
     background: transparent;
   }
   .site{
@@ -23,6 +23,10 @@
 
   h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart{
     font-family: 'Libre Franklin', sans-serif !important;
+  }
+
+  h2{
+    margin-top: 2em;
   }
 
   h3{
@@ -202,6 +206,14 @@
     margin: 0 0 2em 0;
   }
 
+  a{
+    text-decoration: none;
+  }
+
+  .body-copy a{
+    color: #2c6cb4;
+    border-bottom: 1px solid #d5d5d5;
+  }
   /*chart stylings*/
   .charts{
     flex-direction: column;
