@@ -6,12 +6,12 @@
   .site{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 5% 5% 53% 27% 5% 5%;
+    grid-template-columns: 5% 3% 55% 27% 5% 5%;
     grid-template-rows: auto auto auto 30px;
     grid-template-areas:
       'hd hd hd hd hd hd'
       'side . hdline hdline . .'
-      'side . article . . .'
+      'side . article left . .'
       'ft ft ft ft ft ft';
   }
 
@@ -21,7 +21,7 @@
     align-items: center;
   }
 
-  h2, h3, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart{
+  h2, h3, #section-name, .left, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart, .number{
     font-family: 'Libre Franklin', sans-serif !important;
   }
 
@@ -164,6 +164,75 @@
     padding-bottom: 3px;
   }
 
+  /*adding in left area*/
+  .left{
+    grid-area: left;
+    padding-left: 10%;
+    width: 300px;
+    height: 900px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .label::before{
+    width: 2rem;
+    background-color: #2a2a2a;
+    content: "";
+    display: block;
+    height: 0.25rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .label{
+    font-weight: 700;
+    padding-bottom: 0.625rem;
+  }
+
+  .card{
+    list-style: none outside none;
+    padding: 15px;
+    border: 1px solid #e9e9e9;
+    border-bottom-color: #d5d5d5;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+
+  .li-content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+  }
+
+  .number{
+    padding-right: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 0;
+  }
+
+  .side-hdline{
+    font-size: 15px !important;
+    line-height: 18px !important;
+    overflow: hidden;
+  }
+
+  .li-content img{
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .last{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: 0;
+  }
+
   /*article body stylings*/
   .headline{
     grid-area: hdline;
@@ -174,15 +243,20 @@
     padding-top: 0 !important;
   }
 
+  #section-name, .label a{
+    font-weight: 700;
+    color: #1955a5;
+  }
+
   .pg-h1{
     font-size: calc(21px + 2.5vw);
     font-weight: bold;
     justify-content: flex-start;
     word-spacing: -0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 2%;
     line-height: 1.1em;
     color: #2a2a2a;
-    max-width: 60%;
+    max-width: 65%;
   }
 
   .byline{
