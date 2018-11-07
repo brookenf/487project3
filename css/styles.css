@@ -21,7 +21,7 @@
     align-items: center;
   }
 
-  h2, h3, #section-name, .right, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart, .number{
+  h2, h3, #section-name, .right, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart, .number, .subscribe-link{
     font-family: 'Libre Franklin', sans-serif !important;
   }
 
@@ -194,7 +194,7 @@
     padding: 0;
   }
 
-  .card{
+  #card{
     list-style: none outside none;
     padding: 5px 15px 15px 15px;
     border: 1px solid #e9e9e9;
@@ -242,6 +242,97 @@
     border: none;
     outline: 0;
   }
+
+  /*subscribe*/
+  #subscribe{
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #fefefe;
+    border: 1px solid #e9e9e9;
+    border-bottom-color: #d5d5d5;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 22px 6% 5% 6%;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150%;
+  }
+
+  #subscribe-logo{
+    background: url(https://washingtonpost.com/pb/resources/img/right-rail-subscription/Icons_Established-Small.png);
+    height: 85px;
+    width: 85px;
+    margin: 0 auto;
+    background-size: 100%
+  }
+
+  #subscribe-wp-logo{
+    background: url(https://washingtonpost.com/pb/resources/img/right-rail-subscription/TWP-Logo_Black.svg);
+    width: 166px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 15px;
+    opacity: 0.4;
+  }
+
+  #subscribe-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 30px;
+    color: #2a2a2a;
+    margin: 5px 0 4px 0;
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .subscribe-btn{
+    height: 44px;
+    width: 270px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #1955a5;
+    padding: 0;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin: 9px 0 9px 0;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+  .subscribe-link{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  .subscribe-link span{
+    text-decoration: line-through;
+    color: #8eaadb;
+    font-weight: 300;
+  }
+
+  .offer{
+    height: 44px;
+    width: 270px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+  }
+
+  .send-offer{
+    color: #222;
+    font-weight: bold;
+    line-height: 21px;
+  }
+
 
   /*article body stylings*/
   .headline{
