@@ -6,12 +6,12 @@
   .site{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 20% 5% 25% 25% 5% 20%;
+    grid-template-columns: 5% 5% 53% 27% 5% 5%;
     grid-template-rows: auto auto auto 30px;
     grid-template-areas:
       'hd hd hd hd hd hd'
-      'side hdline hdline hdline hdline .'
-      'side . article article . .'
+      'side . hdline hdline . .'
+      'side . article . . .'
       'ft ft ft ft ft ft';
   }
 
@@ -167,33 +167,45 @@
   /*article body stylings*/
   .headline{
     grid-area: hdline;
-    flex-direction: column;
-    text-align: center;
     background: #fff;
     font-family: 'Playfair Display', serif;
     margin: 10% 0 6% 0;
+    border-bottom: 1px solid #d5d5d5 !important;
+    padding-top: 0 !important;
   }
 
   .pg-h1{
-    color: #2a2a2a;
-    font-size: 3.7em;
+    font-size: calc(21px + 2.5vw);
+    font-weight: bold;
+    justify-content: flex-start;
+    word-spacing: -0.02em;
+    margin-bottom: 8px;
     line-height: 1.1em;
-    margin-bottom: 12;
+    color: #2a2a2a;
+    max-width: 60%;
   }
 
   .byline{
     font-size: 1.15em;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 22px;
+    color: #666;
+    margin-bottom: 18px;
+    display: inline-block;
+    flex-direction: column;
   }
 
   .author{
     text-decoration: none;
+    font-weight: 700;
     color: #1955a5;
   }
 
   .article{
     grid-area: article;
     color: #111;
+    padding-right: 10%;
+    border-right: 1px solid #d5d5d5 !important;
   }
 
   .body-copy{
@@ -359,7 +371,7 @@
     body{
       font-size: 12px;
     }
-    
+
     .site{
       grid-template-areas:
         'hd hd hd'
