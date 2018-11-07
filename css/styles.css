@@ -356,13 +356,17 @@
   }
 
   @media only screen and (max-width: 700px){
+    body{
+      font-size: 12px;
+    }
+    
     .site{
       grid-template-areas:
         'hd hd hd'
         '. hdline .'
         '. article .'
         'ft ft ft';
-      grid-template-columns: 2% 96% 2%;
+      grid-template-columns: 4% 92% 4%;
       grid-template-rows: repeat(4, auto);
     }
   }
