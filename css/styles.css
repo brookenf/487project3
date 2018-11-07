@@ -11,7 +11,7 @@
     grid-template-areas:
       'hd hd hd hd hd hd'
       'side . hdline hdline . .'
-      'side . article left . .'
+      'side . article right . .'
       'ft ft ft ft ft ft';
   }
 
@@ -21,7 +21,7 @@
     align-items: center;
   }
 
-  h2, h3, #section-name, .left, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart, .number{
+  h2, h3, #section-name, .right, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, #line-chart, .number{
     font-family: 'Libre Franklin', sans-serif !important;
   }
 
@@ -165,8 +165,8 @@
   }
 
   /*adding in left area*/
-  .left{
-    grid-area: left;
+  .right{
+    grid-area: right;
     padding-left: 10%;
     width: 300px;
     height: 900px;
@@ -189,9 +189,14 @@
     padding-bottom: 0.625rem;
   }
 
+  .label p{
+    margin: 0;
+    padding: 0;
+  }
+
   .card{
     list-style: none outside none;
-    padding: 15px;
+    padding: 5px 15px 15px 15px;
     border: 1px solid #e9e9e9;
     border-bottom-color: #d5d5d5;
     border-bottom-width: 2px;
@@ -220,10 +225,15 @@
     overflow: hidden;
   }
 
+  .li-content a{
+    color: inherit;
+  }
+
   .li-content img{
     margin-left: 10px;
     height: 60px;
     width: 60px;
+    object-fit: cover;
   }
 
   .last{
