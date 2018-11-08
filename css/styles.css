@@ -265,13 +265,12 @@
     border-bottom-width: 2px;
     border-radius: 4px;
     background-color: #fff;
-    padding: 22px 6% 20px 6%;
+    padding: 22px 6% 30px 6%;
     width: 100%;
-    height: 200%;
   }
 
   #subscribe-logo{
-    background: url(https://washingtonpost.com/pb/resources/img/right-rail-subscription/Icons_Established-Small.png);
+    background: url(../img/subscribe-icon.png);
     height: 85px;
     width: 85px;
     margin: 0 auto;
@@ -282,6 +281,7 @@
     background: url(https://washingtonpost.com/pb/resources/img/right-rail-subscription/TWP-Logo_Black.svg);
     width: 166px;
     height: 25px;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 15px;
@@ -399,7 +399,7 @@
     grid-area: hdline;
     background: #fff;
     font-family: 'Playfair Display', serif;
-    margin: 10% 0 6% 0;
+    margin: 7% 0 6% 0;
     border-bottom: 1px solid #d5d5d5 !important;
     padding-top: 0 !important;
   }
