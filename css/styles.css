@@ -257,7 +257,7 @@
 
   /*subscribe*/
   #subscribe{
-    flex-direction: column;
+    margin-top: 5%;
     box-sizing: border-box;
     background-color: #fefefe;
     border: 1px solid #e9e9e9;
