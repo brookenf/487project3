@@ -8,24 +8,17 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 5% 3% 55% 27% 5% 5%;
-    grid-template-rows: auto auto auto 30px;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
       'hd hd hd hd hd hd'
       'side . hdline hdline . .'
-      'side . article right . .'
-      'ft ft ft ft ft ft';
+      'side . article right . .';
   }
 
   .flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-
-  .flex-column{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
   }
 
   h2, h3, #section-name, .right, .source, .byline, .hd-btn, #ajax-table_wrapper, text, .label-token, tspan, .comments, .bio, #grey, .tau-chart__layout, #chart1, #chart2, li, #line-chart, .number, .subscribe-link, .newsletter-field, .newsletter-btn, .subscribe-article, .label, .recommends{
@@ -354,7 +347,9 @@
   /*recommendations*/
   .recommends{
     justify-content: space-between;
+    width: 100%;
   }
+
   .recommends p{
     margin-bottom: 5%;
   }
@@ -376,7 +371,12 @@
     padding-bottom: 0.625rem;
   }
 
+  .hairline a{
+    flex-basis: 70%;
+  }
+
   .hairline img{
+    flex-basis: 30%;
     max-width: 100%;
     max-height: 150px;
     object-fit: cover;
@@ -391,6 +391,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  .number, .li-content a{
+    flex-basis: 10%;
   }
 
   .label::before{
@@ -420,8 +424,8 @@
     margin-bottom: 5px;
   }
 
-  #card{
-    padding: 5px 15px 15px 15px;
+  #card, #subscribe{
+    padding: 3% 15px 15px 15px;
     border: 1px solid #e9e9e9;
     border-bottom-color: #d5d5d5;
     border-bottom-width: 2px;
@@ -448,6 +452,7 @@
     font-size: 15px !important;
     line-height: 18px !important;
     overflow: hidden;
+    flex-basis: 80%;
   }
 
   .li-content a{
@@ -470,16 +475,7 @@
 
   /*subscribe*/
   #subscribe{
-    margin-top: 5%;
-    box-sizing: border-box;
-    background-color: #fefefe;
-    border: 1px solid #e9e9e9;
-    border-bottom-color: #d5d5d5;
-    border-bottom-width: 2px;
-    border-radius: 4px;
-    background-color: #fff;
-    padding: 22px 6% 30px 6%;
-    width: 100%;
+    text-align: center;
   }
 
   #subscribe-logo{
@@ -514,7 +510,7 @@
 
   .subscribe-btn{
     height: 44px;
-    width: 270px;
+    width: 100%;
     border-radius: 2px;
     border: none;
     outline: none;
@@ -544,7 +540,7 @@
 
   .offer{
     height: 44px;
-    width: 270px;
+    width: 100%;
     border-radius: 2px;
     border: 1px solid #ddd;
     background-color: #fff;
@@ -561,11 +557,16 @@
   .subscribe-article{
     width: 100%;
     font-size: 1.15em;
+    text-align: center;
     flex-direction: column;
     background-color: #ededed;
     border-radius: 4px;
     padding: 3% 0 3% 0;
     margin-bottom: 5%;
+  }
+
+  #btn-article{
+    width: 45%;
   }
 
 
@@ -618,46 +619,10 @@
     padding-left: 0;
   }
 
-  /*footer stylings*/
-  .footer{
-    grid-area: ft;
-  }
-
   /*media queries */
-  @media only screen and (max-width: 1100px){
-    .site{
-      grid-template-areas:
-        'hd hd hd hd'
-        '. hdline hdline .'
-        '. article article .'
-        'ft ft ft ft';
-      grid-template-columns: 10% 40% 40% 10%;
-      grid-template-rows: repeat(4, auto);
-    }
-
-    .headline{
-      border-bottom: none;
-    }
-
-    .article{
-      border-right: none;
-    }
-
-    .hidden{
-      display: none;
-    }
-
-    .hd-btn{
-      width: 36px;
-    }
-    #sections{
-      margin: 0 auto;
-    }
-  }
-
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 992px){
     body{
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .site{
@@ -665,9 +630,32 @@
         'hd hd hd'
         '. hdline .'
         '. article .'
-        'ft ft ft';
+        '. right .';
       grid-template-columns: 4% 92% 4%;
       grid-template-rows: repeat(4, auto);
     }
-  }
+
+    .hidden{
+      display: none;
+    }
+
+    .headline{
+      border-bottom: none !important;
+    }
+
+    .pg-h1{
+      max-width: 80%;
+    }
+
+    .article{
+      border-right: none !important;
+      padding-right: 0;
+    }
+
+    .right{
+      width: 75%;
+      margin: 0 auto;
+      padding-left: 0;
+    }
+  }/*closing of media query 992px*/
 }/*closing of grid area auto*/
